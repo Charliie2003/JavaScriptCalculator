@@ -1,0 +1,89 @@
+/*header*/
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: brown;
+    margin-top: 20px;
+}
+
+/*body*/
+#contenedorCalculadora {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 30px
+}
+
+#contenedorCalculadora p {
+    padding: 10px;
+    font-weight: bold;
+}
+
+#contenedorCalculadora input {
+    height: 30px;
+    text-align: center;
+    border: 2px solid brown;
+    border-radius: 10px;
+}
+.elemento {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 10px;
+}
+#contenedoroOperaciones {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+
+}
+#contenedoroOperaciones button{
+    margin-left: 15px;
+    width: 60px;
+    height: 60px;
+    background-color: brown;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold ;
+}
+#contenedorRedondeo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+#contenedorRedondeo button{
+    margin-left: 15px;
+    width: 100px;
+    height: 40px;
+    background-color: brown;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold ;
+}
+#contenedorResultado {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 15px
+}
+
+#contenedorResultado p {
+    padding: 10px;
+    font-weight: bold;
+}
+
+#contenedorResultado input {
+    height: 30px;
+    text-align: center;
+    border: 2px solid brown;
+    border-radius: 10px;
+}

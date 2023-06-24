@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Returns</title>
+</head>
+
+<body>
+    <script>
+        /*let resultado;
+        function sumar(){
+            resultado = 15 + 19;
+            return resultado;
+        }
+        let numero = "El numero es " + sumar();
+        alert(numero);*/
+        function mostrarResultado() {
+            let resultado = sumar();
+            alert(resultado);
+        }
+
+        function sumar() {
+            let suma = 15 + 19
+            return suma;
+        }
+        function mostrarFecha() {
+            alert(obtenerFecha());
+
+
+
+        }
+        function obtenerFecha() {
+            let tiempoActual = new Date();
+            let fecha = tiempoActual.toLocaleDateString('es-ES');
+            return fecha;
+        }
+
+    </script>
+</body>
+
+</html>

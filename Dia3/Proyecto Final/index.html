@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Proyecto Fin de Curso</title>
+  
+</head>
+<body onload="comenzarReloj()">
+    <header>
+        <h1>Juego con temporizador</h1>
+        <p id="cronometro">30</p>
+        <img src="img/cronometro.png" alt="imagenCronometro"> </img>
+    </header>
+    <div id="formulario">
+        <p id="preguntaUno">1- ¿Por que no había chupado kuki antes?</p>
+        <input type="text" id="campoUno">
+        <p id="preguntaDos">2- Por que los gatos tienen espinas en su pene</p> 
+        <input type="text" id="campoDos">
+        <p id="preguntaTres">3- Por que el cielo es azul</p>
+        <input type="text" id="campoTres">
+        <p id="preguntaCuatro">4- ¿Donde sería la octava maravilla del mundo?</p>
+        <input type="text" id="campoCuatro">
+        <p id="preguntaCinco">5- ¿Por qué los barcos se hunden?</p>
+        <input type="text" id="campoCinco">
+        <button onclick="mostrarResultado()">Finalizar</button>
+        <button onclick="volverIntentar()">Volver Intentar</button>
+        <audio id ="sonidoAlarma">
+            <source src="audios/alarma.mp3" type="audio/mpeg">
+            Sonido no habilitado
+        </audio>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculadora Online</title>
+</head>
+<body>
+    <header>
+        <h1>Calculadora Online</h1>
+    </header>
+    <div id="contenedorCalculadora">
+        <div class="elemento">
+            <p>Operando1</p>
+            <input type="number" id="operandoUno">
+        </div>
+        <div class="elemento">
+            <p>Operando2</p>
+            <input type="number" id="operandoDos">
+        </div>
+    </div>
+    <div id="contenedoroOperaciones">
+        <button onclick="suma()">+</button>
+        <button onclick="resta()">-</button>
+        <button onclick="multiplicar()">*</button>
+        <button onclick="division()">/</button>
+        <button onclick="vaciar()">CE</button>
+    </div>
+    <div id="contenedorRedondeo">
+        <button onclick="redondear()">Redondeo</button>
+        <button onclick="redondearFloor()">Floor</button>
+        <button onclick="redondearCeil()">Ceil</button>
+    </div>
+    <div id="contenedorResultado">
+        <div class="elemento">
+            <p>Resultado</p>
+            <input type="number" id="resultado">
+        </div>
+        <div class="elemento">
+            <p>Resultado Redondeado</p>
+            <input type="number" id="resultadoRedondeado">
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
