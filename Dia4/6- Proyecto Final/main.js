@@ -27,6 +27,28 @@ function division() {
     let resultadoDividir = valorOperandoUno / valorOperandoDos;
     elementoResultado.value = resultadoDividir;
 }
+function raiz(){
+    let operandoUno = elementoOperandoUno.value;
+    if (operandoUno === ""){
+       alert("Complete Operando1 para poder hacer la raíz");
+    } else{
+        elementoResultado.value= Math.sqrt(elementoOperandoUno.value); 
+    }
+}
+function potencia(){
+    elementoResultado.value=Math.pow(elementoOperandoUno.value, elementoOperandoDos.value)
+}
+function absoluto(){
+    elementoResultado.value =Math.abs(elementoOperandoUno.value);
+}
+function randoom(){
+    let minimo = parseFloat(elementoOperandoUno.value);
+    let maximo = parseFloat(elementoOperandoDos.value);
+    maximo = maximo + 1;
+    let resultado = Math.floor(Math.random() * (maximo - minimo) + minimo);
+    elementoResultado.value = resultado;
+    
+}
 function vaciar(){
     elementoResultado.value = "";
     elementoOperandoUno.value="";
@@ -42,3 +64,4 @@ function redondearFloor(){
 function redondearCeil(){
     elementoResultadoRedondeado.value = Math.ceil(elementoResultado.value);
 }
+
