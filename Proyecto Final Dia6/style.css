@@ -1,0 +1,43 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serifs;
+    background-color: pink;
+}
+h1{
+    text-shadow: 2px 2px 3px white;
+    color: rgb(99, 6, 99);
+}
+.contenedorTexto{
+    padding: 10px;
+    display: flex;
+    flex-direction: column ;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.contenedorTexto p{
+    padding: 15px;
+    color:purple;
+    font-weight: bold;
+
+   
+}
+.contenedorBotones{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding:20px;
+}
+.contenedorBotones button{
+    width: 200px;
+    height: 60px;
+    padding: 5px;
+    margin-left: 20px;
+    background-color: violet;
+    border: 2px solid purple;
+    font-weight: bolder;
+    color:white;
+}
