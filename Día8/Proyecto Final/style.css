@@ -1,0 +1,63 @@
+body{
+    background-color: rgb(251, 221, 184);
+}
+h1 {
+    background: linear-gradient(45deg, #FFA500, #FFFF00);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 2px 5px  rgba(3, 3, 3, 0.6);
+    font-size: 36px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-align: center;
+}
+  hr{
+    height: 1px;
+    background-color: #ab720a ;
+    border: 1px solid white;
+}
+#contenedorInput{
+    display:flex ;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: rgb(121, 71, 10);
+    font-weight: bold;
+    font-size: 20px;
+}
+#contenedorInput input{
+   height: 25px;
+   width: 200px;
+   text-align: center;
+   font-weight: bold;
+   background-color: rgb(132, 86, 59);
+    color: white;
+    font-size: 12px;
+    border-radius: 5px;
+
+}
+#contenedorBotones{
+    display:flex ;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+#contenedorBotones button{
+    margin-top: 12px;
+    padding: 12px;
+    background-color: rgb(132, 86, 59);
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    border-radius: 7px;
+
+
+}
+#contenedorBotones button:hover{
+   
+    background-color: rgb(251, 221, 184);
+    padding: 17px;
+}

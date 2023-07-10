@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Párametros de Constructor</title>
+</head>
+<body>
+    <script>
+        function Perro(raza, edad){
+            this.patas = 4;
+            this.raza = raza;
+            this.edad = edad;
+            this.ladrar = function(){
+                console.log("Guau");
+            };
+        };
+        let simba = new Perro("Shih Tzu", 4);
+        let reina = new Perro("Caniche", 15);
+        let batu = new Perro("Akita Americano", 7)
+
+        function Empleado(nombre, apellido, edad, cargo){
+            this.nombre = nombre;
+            this.apellido = apellido;
+            this.edad = edad;
+            this.cargo = cargo;
+            this.presentarse = function(){
+                console.log("Mi nombre es " + nombre +" " + apellido+
+                ", soy " + cargo + ", y tengo " + edad + " años" );
+            };
+        };
+        let empleadoUno = new Empleado("Javier", "Perez", 35 , "Programador");
+    </script>
+</body>
+</html>

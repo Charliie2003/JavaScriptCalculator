@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Registro de Empleados</title>
+    <script src="main.js"></script>
+</head>
+<body>
+    <h1>Registro de Empleados</h1>
+    <hr>
+    <div id="contenedorInput">
+        <p>Legajo</p>
+        <input type="text" id="legajo">
+        <p>Nombre</p>
+        <input type="text" id="Nombre">
+        <p>Apellido</p>
+        <input type="text" id="Apellido">
+        <p>Fecha Nacimiento</p>
+        <input type="date" id="fechaNacimiento">
+        <p>Cargo</p>
+        <input type="text" id="cargo">
+    </div>
+    <div id="contenedorBotones">
+        <button onclick="cargarEmpleado()">Cargar Empleado</button>
+        <button onclick="mostrarAlert()">Mostrar Empleado</button>
+    </div>
+</body>
+</html>
