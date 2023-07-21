@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prototipos</title>
+
+</head>
+<body>
+    <script>
+        let auto = {
+            marca : 'Mitsubishi',
+            modelo: 'Eclipse'
+        };
+        function prototipos(){
+            let auto1 = Object.create(auto);
+            console.log(auto1.__proto__)
+        }
+
+
+        let estudiante = {
+            nombre : 'Charlie',
+            apellido: 'Hinojosa',
+            legajo : 'Becario',
+        };
+        function prototipos() {
+            let estudiante1 = Object.create(estudiante);
+            console.log(estudiante1.__proto__)    
+        }
+        
+    </script>
+</body>
+</html>
