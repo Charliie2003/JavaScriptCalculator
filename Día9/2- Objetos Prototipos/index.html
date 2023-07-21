@@ -13,6 +13,27 @@
             this.cantPaginas = cantPaginas;
         }
         let libro1 = new Libro("Stephen King", "Carrie", 522);
+
+
+        function Futbolista(nombre, equipo, posicion){
+            this.nombre = nombre;
+            this.equipo = equipo;
+            this.posicion = posicion;
+        }
+        /*function prototipos() {
+            let futbolista1 = new Futbolista("Lionel Messi", "PSG", "Delantero");
+            console.log(futbolista1.valueOf())
+        }*/
+
+        function Pelicula(titulo, director, duracion){
+            this.titulo = titulo;
+            this.director = director;
+            this.duracion = duracion;
+        }
+        function prototipos(){
+            let pelicula1 = new Pelicula("Jurassic Park", "Steven Spielberg", 127);
+            console.log(pelicula1.valueOf());
+        }
     </script>
 </body>
 </html>
